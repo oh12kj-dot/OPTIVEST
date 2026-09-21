@@ -1,6 +1,7 @@
 # TODO
 
 ## P0 — Capital / Data / Critical
+- [x] Create the normalized-state initial commit only after independent Phase-0 acceptance, push `main` to the user-supplied `https://github.com/oh12kj-dot/OPTIVEST.git`, and preserve quarantined raw data/DB/cache exclusions.
 - [x] Sol independently pre-reviewed PHASE0-GIT-IDENTITY-V2 draft 1 SHA-256 `DF3BEA3718DBD8259D077D53EEDFC9E6C29EC9A5340AB7DD940A63685F29D790`. Verdict `DESIGN CHANGE REQUIRED`; controlling review SHA-256 `A61D8804DCB95CD6721AED5EE65B886D1F23C2272FE2DA923509B4D300FA99CE`.
 - [x] Astra corrected B1-B4 in `PHASE0_GIT_IDENTITY_AMENDMENT_REV2.md` with a normalized committed-tree `STATE_SHA256`, Git index semantics for clean CRLF checkouts, binary tree/index contracts and complete drift/read-only tests. Correction is not acceptance.
 - [x] Sol independently re-reviewed revision 2 SHA-256 `8225D5DAE489BEB4B9533CFE2D3B84308B26A214B889FE437E69E9F9DFC12E6C`. B1-B2 close, but B3-B4 remain blocking; verdict `DESIGN CHANGE REQUIRED`, complete review SHA-256 `EAC0AD2B8F383DBF0DB2DAADE899E5313114E4CAF42E6ACB9C16C9DC6D62F1B7`.

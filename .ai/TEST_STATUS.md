@@ -1,5 +1,12 @@
 # Test and validation status
 
+## 2026-09-21 initial Git delivery verification
+
+- Initial content commit: `51368a74c2e1be1f383413833c4259161d8b78fd`; committed state identity `5ed8aaff91608d44ae3e7a26e903e0ff434f98a1b7d6327b11e6dfabf2fe8911`.
+- `uv --cache-dir .uv-cache run python scripts/verify_startup.py --root .` after amend -> exit 0, `startup_integrity=PASS`, findings `[]`, clean `main`, exact recorded/computed state match, `NOT PRODUCTION READY`.
+- `git push -u origin main` -> success; `origin/main` created at the supplied GitHub destination. A final delivery-record commit and remote parity check follow this entry.
+- `git diff --cached --check` before the root commit reported pre-existing Markdown hard-break/trailing-space bytes in the selected Policy and hashed historical review artifacts. Those bytes were intentionally preserved; quarantined raw Nasdaq files and local DB/cache files remained ignored.
+
 ## 2026-09-21 PHASE0-GIT-IDENTITY-V2 final alternate-token Sol recheck — PASS_ENGINEERING_PHASE0_GIT_IDENTITY
 
 - Controlling complete post-review SHA-256: `71CD35864C4B0FE33271458250FC920FCD3918453E85A78133F22A7A8C60C2BE`.

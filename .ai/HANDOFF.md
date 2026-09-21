@@ -1,6 +1,15 @@
-# Handoff — PHASE0-GIT-IDENTITY-V2 independently accepted; commit/push not performed
+# Handoff — PHASE0-GIT-IDENTITY-V2 independently accepted and delivered
 
-Updated: 2026-09-21 (Asia/Tokyo). Branch main; HEAD UNBORN; no commits or remote.
+Updated: 2026-09-21 (Asia/Tokyo). Branch `main` tracks `origin/main` at `https://github.com/oh12kj-dot/OPTIVEST.git`.
+
+## 2026-09-21 initial Git delivery
+
+- Initial content commit `51368a74c2e1be1f383413833c4259161d8b78fd` was created only after `PASS_ENGINEERING_PHASE0_GIT_IDENTITY` and pushed to the previously supplied empty GitHub repository.
+- Its committed identity was `STATE_SHA256:5ed8aaff91608d44ae3e7a26e903e0ff434f98a1b7d6327b11e6dfabf2fe8911`; startup verifier returned PASS with an empty finding list and a clean tree before push.
+- This delivery-record update is committed separately because a tracked document cannot contain its own final commit OID. Obtain the current exact OID with `git rev-parse HEAD`; use the recorded `STATE_SHA256` as the frozen content identity.
+- Quarantined Nasdaq raw `.txt` files, local SQLite databases, caches and virtual environments remained ignored and were not pushed. The selected Policy bytes were preserved.
+- Next action: return to `RESEARCH-RETURN-BRIDGE-LAB-V1` revision 3 design work. Close only Sol B7-B8, then request independent design re-review; do not dispatch Terra before an exact-hash freeze.
+- Boundaries remain `RISK BUDGET NOT APPROVED`, applicable provider/PIT/model/OOS evidence `NOT VERIFIED`, `SHADOW VALIDATION NOT PASSED`, and `NOT PRODUCTION READY`.
 
 ## 2026-09-21 final alternate-token Sol recheck — PASS_ENGINEERING_PHASE0_GIT_IDENTITY
 
