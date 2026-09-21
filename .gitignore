@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+/optivest.db
+/optivest.db-shm
+/optivest.db-wal
+/phase2_check.db
+/phase2_check.db-shm
+/phase2_check.db-wal
+/data/unverified_nasdaq_capture_2026-09-09/*.txt

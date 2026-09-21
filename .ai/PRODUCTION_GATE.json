@@ -1,0 +1,158 @@
+{
+  "policy_filename": "OPTIVEST_AI_POLICY_V10.md",
+  "policy_sha256": "ACF013CE46F450423D83DEEBA1C207B22C669670C2B9BDC83A8A665F5AD38E67",
+  "scope": "Manual evidence register; not runtime authorization",
+  "production_readiness": "NOT PRODUCTION READY",
+  "items": [
+    {
+      "id": 1,
+      "requirement": "Formal Objective / Horizon / Mandate / Base-currency wealth semantics fixed; contribution-withdrawal semantics and performance reporting method fixed where relevant",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 2,
+      "requirement": "Numerical Risk Budget approved; Personalized時はdimension-wise Risk Capacity/Tolerance assessment・limiting factors documented; Personalized Portfolioの実運用有効化が明示承認済み; no `RISK BUDGET INCONSISTENT`",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 3,
+      "requirement": "Structural Hard / Model-Estimated / Hybrid / Stress semantics separately defined and fail-closed tested where applicable",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 4,
+      "requirement": "`U_risk` / risk horizons / confidence / robust chance-quantile semantics、または明示的equivalent buffer semanticsが定義・validatedされ、double countingなし。推定Riskを保証として表現しない",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 5,
+      "requirement": "Evidence Firewall / PIT / tradability / Security Master / provider timestamp semantics verified",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 6,
+      "requirement": "No unresolved Material `DATA_LIMITATION`",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 7,
+      "requirement": "Forecast calibration + Multi-Horizon validation evaluated",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 8,
+      "requirement": "Economic Return Bridge + Incremental ROIC/reinvestment consistency + hierarchical statistical/economic expected-return decomposition / alpha shrinkage / Base-currency FX treatment documented and validated",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 9,
+      "requirement": "Material economic dependency / scenario coherence validated",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 10,
+      "requirement": "Uncertainty Ledger current; `U_objective` / `U_risk` / `S_stress` roles clear; Material double counting not unresolved; fractional sizing not duplicative",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 11,
+      "requirement": "Forecast Edge Persistence acceptable",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 12,
+      "requirement": "Canonical Robust Optimizer / `U_objective` construction-calibration / ambiguity decomposition documented and validated without portfolio-backtest tuning; strict-log wealth-floor・ruin numerical semantics verified",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 13,
+      "requirement": "Individual + Portfolio joint robust chance/quantile risk semantics / dependency / horizon treatment validated",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 14,
+      "requirement": "`S_stress` version / scenario severity / binding-vs-diagnostic semantics validated",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 15,
+      "requirement": "Portfolio Opportunity Rank / Canonical Decision Hurdle / Generic-vs-Personalized mode / New-Add-Retention value separation / Risk Contributions / Utility Sensitivity / Defensive Opportunity Cost tested",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 16,
+      "requirement": "Permanent Loss / Survival Model event definitions and dependency/double-counting treatment validated; uncalibrated false precision blocked where material",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 17,
+      "requirement": "Eligible Benchmark available as comparator; approved Passive Market Implementation / Cash / approved Risk-free proxy available as investable alternatives; `NO_TRADE` available as a decision alternative; Benchmark-vs-Implementation semantics separated; single-name vs passive caps and look-through tested",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 18,
+      "requirement": "Cost/Liquidity/Capacity modeled; Cost/Tax wealth-path inclusion occurs once and double-counting tests pass",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 19,
+      "requirement": "Locked OOS preserved; calibration isolation maintained; Research Trial Ledger current including model/prompt/data/policy/optimizer provenance where applicable",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 20,
+      "requirement": "Approved **binding** `S_stress` constraintsはPASS。Diagnostic-only stressは結果・限界を文書化し、診断上の悪化をbinding PASSと偽装しない",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 21,
+      "requirement": "Shadow/Paper passed; long-horizon validation limitations explicitly disclosed",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 22,
+      "requirement": "Blind Independent Validation passed where required, including required Pre-Implementation Review / Decision Freeze for Material design",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 23,
+      "requirement": "Policy-as-Code / Fail-Closed gates tested",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 24,
+      "requirement": "Action semantics / sequential re-optimization / tradability / accounting invariants / Minimum Trade Threshold behavior tested",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    },
+    {
+      "id": 25,
+      "requirement": "Policy filename/hash, Decisions, Handoff, Test Status current; Major limitations disclosed",
+      "status": "NOT VERIFIED",
+      "evidence": []
+    }
+  ]
+}
